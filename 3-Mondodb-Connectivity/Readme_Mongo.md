@@ -41,4 +41,6 @@
 - It manages relationships between data. 
 - Provides schema validation.
 - Used to translate between objects in code and the representation of those objects in MongoDB.
+- Schema - A Mongoose schema defines the document's properties, default values, types of data, validators, etc.
+- Model - provides an interface for the database to create, query, update, delete records, and so on.
 
