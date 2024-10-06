@@ -42,6 +42,3 @@
 - Provides schema validation.
 - Used to translate between objects in code and the representation of those objects in MongoDB.
 
-# Mongodb atlas :
-usnm : dsantoshkumarit
-pswr : G5t2MeEIPrn8FfTG
