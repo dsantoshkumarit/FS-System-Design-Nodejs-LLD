@@ -94,6 +94,8 @@ app.patch("/shop/updateProduct/:id",async(req,res,next)=>{
             res.status(404);
             throw new Error("Product not found");
         }
+
+        //to get updated product details after update.
         const updatedProduct = await productModel.findById(id);
         res.status(200).json({message: "Product Updated", updatedProduct});
         /* Sample response:

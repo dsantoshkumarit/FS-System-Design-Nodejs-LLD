@@ -44,3 +44,8 @@
 - Schema - A Mongoose schema defines the document's properties, default values, types of data, validators, etc.
 - Model - provides an interface for the database to create, query, update, delete records, and so on.
 
+# CRUD Operations methods
+- Create - `await model.create({name, email,...})`
+- Read - `model.find(); model.findById(id)`
+- Update - `productModel.findByIdAndUpdate(id,req.body)`
+- Delete -
