@@ -45,7 +45,7 @@
 - Model - provides an interface for the database to create, query, update, delete records, and so on.
 
 # CRUD Operations methods
-- Create - `await model.create({name, email,...})`
+- Create - `await model.create({name, email,...}) | const Product = new productModel({...}); Product.save()`
 - Read - `model.find(); model.findById(id)`
-- Update - `productModel.findByIdAndUpdate(id,req.body)`
-- Delete -
+- Update - `model.findByIdAndUpdate(id,req.body)`
+- Delete - `model.findByIdAndDelete(id) | model.findById(id).findOneAndDelete(id)`
